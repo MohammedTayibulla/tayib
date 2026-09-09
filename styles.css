@@ -156,7 +156,7 @@ button {
 }
 
 .eyebrow {
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     letter-spacing: 0.14em;
     color: #5d6960;
 }
@@ -340,7 +340,7 @@ button {
 }
 
 .heading-row h2 {
-    font-size: clamp(42px, 5vw, 70px);
+    font-size: clamp(32px, 5vw, 40px);
     line-height: 0.95;
     letter-spacing: -0.07em;
     margin: 12px 0 0;
@@ -351,7 +351,7 @@ button {
 }
 
 .heading-note {
-    font: 400 9px "JetBrains Mono";
+    font: 400 12px "JetBrains Mono";
     color: #5d6860;
 }
 
@@ -447,7 +447,7 @@ button {
 }
 
 .project-body>strong {
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #22d472;
 }
 
@@ -522,7 +522,7 @@ button {
     border-top: 1px solid #252d27;
     margin-top: 45px;
     padding-top: 18px;
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #657068;
 }
 
@@ -569,7 +569,7 @@ button {
 }
 
 .stack-panel>small {
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #22d472;
 }
 
@@ -614,10 +614,10 @@ button {
 
 .portrait img {
     display: block;
-    width: min(100%, 430px);
+    width: min(100%, 420px);
     aspect-ratio: 4/5;
     object-fit: cover;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     border: 1px solid #283029;
     border-radius: 7px;
 }
@@ -638,12 +638,12 @@ button {
     font: 500 11px "JetBrains Mono";
     color: #58645b;
     display: block;
-    margin-top: 10px;
+    margin: 10px 40px;
 }
 
 .about-copy h2,
 .experience h2 {
-    font-size: clamp(42px, 5.2vw, 72px);
+    font-size: clamp(32px, 5.2vw, 42px);
     line-height: 0.94;
     letter-spacing: -0.07em;
     margin: 15px 0 28px;
@@ -705,12 +705,12 @@ button {
 }
 
 .experience-row time {
-    font: 500 11px/1.7 "JetBrains Mono";
+    font: 500 13px/1.7 "JetBrains Mono";
     color: #68736b;
 }
 
 .experience-row small {
-    font: 500 11px "JetBrains Mono";
+    font: 500 13px "JetBrains Mono";
     color: #22d472;
 }
 
@@ -721,7 +721,7 @@ button {
 }
 
 .experience-row p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.8;
     color: #89938c;
     margin: 0;
@@ -756,7 +756,7 @@ button {
 }
 
 .recognition span {
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #8c968f;
     border: 1px solid #252d27;
     padding: 10px;
@@ -805,7 +805,7 @@ button {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #68736b;
 }
 
@@ -821,7 +821,7 @@ footer {
     justify-content: space-between;
     gap: 20px;
     color: #5c675f;
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     border-top: 1px solid #1e251f;
 }
 
@@ -988,7 +988,7 @@ body.light {
     }
 
     .portrait img {
-        max-width: 390px;
+        max-width: 300px;
     }
 
     .experience-row {
@@ -1397,7 +1397,7 @@ body.light {
 }
 
 .timeline-label b {
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #68736b;
 }
 
@@ -1410,12 +1410,12 @@ body.light {
 }
 
 .education-row time {
-    font: 500 9px/1.7 "JetBrains Mono";
+    font: 500 13px/1.7 "JetBrains Mono";
     color: #68736b;
 }
 
 .education-row small {
-    font: 500 9px "JetBrains Mono";
+    font: 500 12px "JetBrains Mono";
     color: #22d472;
 }
 
@@ -1426,7 +1426,7 @@ body.light {
 }
 
 .education-row p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.8;
     color: #89938c;
     margin: 0;
@@ -1608,7 +1608,7 @@ body.light .experience-row small {
 }
 
 .tech-list b {
-    font-size: 17px;
+    font-size: 14px;
     padding: 11px 14px;
     color: #eef4ef;
 }
@@ -1637,8 +1637,11 @@ body.light .experience-row small {
 }
 
 @media (max-width: 950px) {
+
     .nav-right #menu {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .nav-right .theme-toggle {
@@ -1762,7 +1765,7 @@ body.light .experience-row small {
 }
 
 .project-body>small {
-    font-size: 7px;
+    font-size: 11px;
 }
 
 .recognition {

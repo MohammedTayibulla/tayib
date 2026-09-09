@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tayib.in/sitemap.xml
